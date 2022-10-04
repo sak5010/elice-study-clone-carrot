@@ -1,0 +1,8 @@
+@import "reset.css";
+
+/* Components */
+@import "components/nav.css";
+@import "components/footer.css";
+
+/* Screens */
+@import "screens/main.css";
