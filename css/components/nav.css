@@ -13,6 +13,7 @@ header {
   box-sizing: border-box;
   padding: 16px 100px;
   position: fixed;
+  background-color: #fff;
 }
 
 .nav-bar__left {
