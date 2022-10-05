@@ -1,29 +1,13 @@
-h1 {
+@charset "UTF-8";
 
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
 .content {
   width: 980px;
   margin: 0 auto;
+}
+
+.content h1.sub-title {
+  font-size: var(--h3-size);
+  text-align: center;
 }
 
 .list-wrap {
@@ -43,6 +27,27 @@ h6 {
   margin-right: 44px;
   margin-bottom: 56px;
 }
+
+.list-wrap .list-item .list-info > h4 {
+  font-size: 16px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.list-wrap .list-item .list-info > h5 {
+  font-size: 15px;
+}
+
+.list-wrap .list-item .list-info > p,
+.list-wrap .list-item .list-info span {
+  font-size: 13px;
+}
+
+.list-wrap .list-item .list-info span {
+  color: var(--gray-color-10);
+}
+
 
 .list-wrap .list-item .list-img {
   width: 100%;
