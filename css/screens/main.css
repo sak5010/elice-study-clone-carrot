@@ -10,7 +10,23 @@ main > section {
   height: 710px;
   padding: 0 400px;
   box-sizing: border-box;
-  background-color: yellow;
+}
+
+main > section h2 {
+  margin-bottom: 26px;
+  font-weight: bold;
+  line-height: 56px;
+  width: 325px;
+}
+
+main > section button {
+  background-color: var(--line-color);
+  padding: 16px 28px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 7px;
+  font-size: var(--font-size-17);
+  font-weight: bold;
 }
 
 main > section.market-one {
@@ -40,9 +56,22 @@ main > section.market-one > img {
   height: 685px;
 }
 
+main > section.market-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 main > section.market-two > img {
   width: 532px;
   height: 684px;
+}
+
+main > section.market-two > .catchline > button {
+}
+
+main > section.market-three {
+  background-color: #e5f3e6;
 }
 
 main > section.market-three > img {
@@ -53,4 +82,8 @@ main > section.market-three > img {
 main > section.market-four > img {
   width: 526px;
   height: 735px;
+}
+
+main > section.hot-items {
+  background-color: #f8f9fa;
 }
