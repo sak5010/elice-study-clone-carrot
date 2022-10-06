@@ -72,6 +72,41 @@ main > section.market-two > .catchline > button {
 
 main > section.market-three {
   background-color: #e5f3e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main > section.market-three .icon-container {
+  display: flex;
+  margin-top: 48px;
+  width: 500px;
+  justify-content: space-between;
+}
+
+main > section.market-three .icon-container .icon {
+  width: 135px;
+  height: 146px;
+}
+
+main > section.market-three .icon-container .icon img {
+  width: 70px;
+  height: 70px;
+}
+
+main > section.market-three .icon-container .icon p > strong {
+  font-weight: bold;
+  font-size: var(--font-size-14);
+}
+
+main > section.market-three .icon-container .icon p {
+  margin: 10px 0;
+}
+
+main > section.market-three .icon-container .icon p:last-child {
+  font-size: var(--font-size-13);
+  line-height: 18px;
+  margin: 0;
 }
 
 main > section.market-three > img {
