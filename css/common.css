@@ -3,6 +3,7 @@
 :root {
   /* background-color */
   --back-color: #fff;
+  --input-back-color: #f2f3f6;
 
   /* font-color */
   --point-color: #ff6f0f;
@@ -31,8 +32,9 @@
   --font-size-13: 13px;
 }
 
-html, body {
-  background-color : var(--back-color);
+html,
+body {
+  background-color: var(--back-color);
 }
 
 h1 {
@@ -65,7 +67,17 @@ h6 {
   color: var(--basic-color);
 }
 
-ol, ul, li, span, div, p, span, a, table, tr, td {
+ol,
+ul,
+li,
+span,
+div,
+p,
+span,
+a,
+table,
+tr,
+td {
   color: var(--basic-color);
 }
 
