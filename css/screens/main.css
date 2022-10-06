@@ -141,4 +141,57 @@ main > section.market-four .catchline > button {
 
 main > section.hot-items {
   background-color: #f8f9fa;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > section.hot-items > h2 {
+  width: 400px;
+  margin-top: 110px;
+}
+
+main > section.hot-items .item-container {
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.item {
+  margin-right: 44px;
+  margin-bottom: 56px;
+}
+
+.item > img {
+  width: 212px;
+  height: 212px;
+  border-radius: 10px;
+}
+
+.item__title {
+  margin: 10px 0;
+}
+
+.item__price {
+  font-weight: bold;
+  font-size: var(--font-size-15);
+}
+
+.item__address {
+  margin: 10px 0;
+  font-size: var(--font-size-13);
+}
+
+.item__likes {
+  font-size: var(--font-size-13);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hot-items__more {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10px;
 }
