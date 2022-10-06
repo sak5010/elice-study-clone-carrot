@@ -13,7 +13,6 @@
 .list-wrap {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .list-wrap .list-item {
@@ -30,9 +29,9 @@
 
 .list-wrap .list-item .list-info > h4 {
   font-size: 16px;
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
 
 .list-wrap .list-item .list-info > h5 {
@@ -48,14 +47,13 @@
   color: var(--gray-color-10);
 }
 
-
 .list-wrap .list-item .list-img {
   width: 100%;
   padding-top: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 15%);
   box-sizing: border-box;
 }
