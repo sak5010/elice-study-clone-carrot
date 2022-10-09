@@ -1,21 +1,60 @@
 main {
   margin-top: 10px;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 main > section {
   width: 100%;
-  height: 710px;
-  background-color: yellow;
+  height: 850px;
+  padding: 0 400px;
+  box-sizing: border-box;
+}
+
+main > section h2 {
+  margin-bottom: 26px;
+  font-weight: bold;
+  line-height: 56px;
+  width: 325px;
+}
+
+main > section button {
+  background-color: var(--line-color);
+  padding: 16px 28px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 7px;
+  font-size: var(--font-size-17);
+  font-weight: bold;
+}
+
+main > section button:hover {
+  background-color: var(--footer-line-color);
+  cursor: pointer;
 }
 
 main > section.market-one {
-  background-color: blanchedalmond;
+  background-color: #fbf7f3;
+  display: flex;
+  align-items: center;
 }
 
 main > section.market-one > .catchline {
-  /* 여기부터 작업 시작 2022-10-06 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section.market-one > .catchline > h1 {
+  margin-bottom: 38px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+main > section.market-one > .catchline > p {
+  line-height: 24px;
+  width: 320px;
 }
 
 main > section.market-one > img {
@@ -23,9 +62,54 @@ main > section.market-one > img {
   height: 685px;
 }
 
+main > section.market-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 main > section.market-two > img {
   width: 532px;
   height: 684px;
+}
+
+main > section.market-three {
+  background-color: #e5f3e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main > section.market-three .icon-container {
+  display: flex;
+  margin-top: 48px;
+  width: 500px;
+  justify-content: space-between;
+}
+
+main > section.market-three .icon-container .icon {
+  width: 135px;
+  height: 146px;
+}
+
+main > section.market-three .icon-container .icon img {
+  width: 70px;
+  height: 70px;
+}
+
+main > section.market-three .icon-container .icon p > strong {
+  font-weight: bold;
+  font-size: var(--font-size-14);
+}
+
+main > section.market-three .icon-container .icon p {
+  margin: 10px 0;
+}
+
+main > section.market-three .icon-container .icon p:last-child {
+  font-size: var(--font-size-13);
+  line-height: 18px;
+  margin: 0;
 }
 
 main > section.market-three > img {
@@ -33,7 +117,107 @@ main > section.market-three > img {
   height: 740px;
 }
 
+main > section.market-four {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 main > section.market-four > img {
   width: 526px;
   height: 735px;
+}
+
+main > section.market-four .catchline {
+  width: 387px;
+  height: 289px;
+}
+
+main > section.market-four .catchline > p {
+  line-height: 24px;
+}
+
+main > section.market-four .catchline > button {
+  margin-left: 0;
+}
+
+main > section.hot-items {
+  background-color: #f8f9fa;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > section.hot-items > h2 {
+  width: 400px;
+  margin-top: 110px;
+}
+
+main > section.hot-items .item-container {
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.item {
+  margin-right: 44px;
+  margin-bottom: 56px;
+}
+
+.item > img {
+  width: 212px;
+  height: 212px;
+  border-radius: 10px;
+}
+
+.item__title {
+  margin: 10px 0;
+}
+
+.item__price {
+  font-weight: bold;
+  font-size: var(--font-size-15);
+}
+
+.item__address {
+  margin: 10px 0;
+  font-size: var(--font-size-13);
+}
+
+.item__likes {
+  font-size: var(--font-size-13);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hot-items__more {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.hot-keywords-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  border-bottom: 1px solid var(--footer-line-color);
+}
+
+.hot-keywords-title {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hot-keywords {
+  display: flex;
+  justify-content: space-around;
+  width: 927px;
+  margin-top: 22px;
+  margin-bottom: 65px;
 }
