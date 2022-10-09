@@ -29,6 +29,11 @@ main > section button {
   font-weight: bold;
 }
 
+main > section button:hover {
+  background-color: var(--footer-line-color);
+  cursor: pointer;
+}
+
 main > section.market-one {
   background-color: #fbf7f3;
   display: flex;
@@ -66,9 +71,6 @@ main > section.market-two {
 main > section.market-two > img {
   width: 532px;
   height: 684px;
-}
-
-main > section.market-two > .catchline > button {
 }
 
 main > section.market-three {

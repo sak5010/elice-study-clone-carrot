@@ -80,3 +80,9 @@ header {
   font-size: var(--font-size-16);
   font-weight: bold;
 }
+
+.nav-bar__chatBtn:hover {
+  background-color: var(--footer-line-color);
+  color: var(--gray-color-10);
+  cursor: pointer;
+}
