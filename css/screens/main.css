@@ -194,6 +194,7 @@ main > section.hot-items .item-container {
   font-weight: bold;
   text-decoration: underline;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .hot-keywords-container {
@@ -208,6 +209,7 @@ main > section.hot-items .item-container {
 .hot-keywords-title {
   font-weight: bold;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .hot-keywords {
