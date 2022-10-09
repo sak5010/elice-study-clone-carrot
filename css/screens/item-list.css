@@ -1,34 +1,69 @@
 @charset "UTF-8";
 
-.content {
+/* .content {
+  margin-top: 72px;
+} */
+
+section.sub-content {
   width: 980px;
-  margin: 0 auto;
+  margin: 72px auto 100px;
 }
 
-.content h1.sub-title {
+.sub-content h1.sub-title {
   font-size: var(--h3-size);
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.head-wrap nav {
+  width: 980px;
+  margin: 0 auto;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.head-wrap select {
+  width: 180px;
+  margin-left: 8px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  font-size: 17px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #fff url(/image/icon-arrow-down.svg) no-repeat 89% 50%;
+}
+.head-wrap select:disabled {
+  color: #adb5bd;
+  background: #f8f9fa  url(/image/icon-arrow-down-off.svg) no-repeat 89% 50%;
 }
 
 .list-wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .list-wrap .list-item {
-  width: calc(25% - 44px);
-  margin-right: 44px;
+  width: 201px;
   margin-bottom: 56px;
 }
 
-.list-wrap .list-item {
-  width: calc(25% - 44px);
-  margin-right: 44px;
-  margin-bottom: 56px;
+.list-wrap .list-item:nth-child(4n), 
+.list-wrap .list-item:nth-child(3n) {
+
+}
+
+.list-wrap .list-item .list-info {
+  margin-top: 12px;
 }
 
 .list-wrap .list-item .list-info > h4 {
   font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,6 +71,7 @@
 
 .list-wrap .list-item .list-info > h5 {
   font-size: 15px;
+  margin-bottom: 4px;
 }
 
 .list-wrap .list-item .list-info > p,
@@ -43,9 +79,21 @@
   font-size: 13px;
 }
 
+.list-wrap .list-item .list-info > p {
+  margin-bottom: 4px;
+}
+
 .list-wrap .list-item .list-info span {
   color: var(--gray-color-10);
 }
+
+.list-wrap .list-item .list-info span:last-child::before {
+  content: '∙';
+  display: inline-block;
+  color:var(--gray-color-10);
+  margin-right: 5px;
+}
+
 
 .list-wrap .list-item .list-img {
   width: 100%;
@@ -66,4 +114,16 @@
   box-sizing: border-box;
   border-radius: 12px;
   border: 1px solid transparent;
+}
+
+button {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
 }
