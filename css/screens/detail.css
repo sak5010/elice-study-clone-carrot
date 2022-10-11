@@ -1,0 +1,118 @@
+main {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > section {
+  width: 756px;
+  padding: 10px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+section.product-info {
+  border-bottom: 1px solid var(--footer-line-color);
+}
+
+section.product-info > .img-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+section.product-info > .img-container > a {
+  font-size: 40px;
+  color: var(--basic-color);
+}
+
+section.product-info > .img-container > a:hover {
+  color: var(--gray-color-10);
+}
+
+section.product-info > .img-container > img {
+  width: 670px;
+  height: 500px;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.product-info__user {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+.product-info__user__left {
+  display: flex;
+}
+
+.product-info__user__left > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.product-info__user__left__user-info > .user-name {
+  font-size: var(--font-size-14);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-info__user__left__user-info > .user-name:hover {
+  text-decoration: underline;
+}
+
+.product-info__user__left__user-info > .user-address {
+  font-size: var(--font-size-13);
+  margin-top: 5px;
+}
+
+.product-info__user__right {
+  display: flex;
+}
+
+.product-info__user__right > img {
+  margin-left: 10px;
+}
+
+.product-info__user__right__user-temperature > .temperature {
+  color: var(--blue-color);
+  font-weight: bold;
+  font-size: var(--font-size-16);
+  width: 100px;
+  text-align: right;
+}
+
+.product-info__user__right__user-temperature > .meters {
+  background-color: var(--footer-line-color);
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.product-info__user__right__user-temperature > .meters > div {
+  background-color: var(--blue-color);
+  width: 36%;
+  height: 5px;
+  border-radius: 20px;
+}
+
+.product-info__user-temperature {
+  text-align: right;
+  width: 100%;
+  font-size: var(--font-size-12);
+  color: var(--gray-color-10);
+}
