@@ -37,23 +37,15 @@
       <section class="head-wrap">
         <h1 class="sub-title">중고거래 인기매물</h1>
         <nav>
-          <select name="" id="">
-            <option value="부산광역시">부산광역시</option>
-            <option value="대구광역시">대구광역시</option>
-            <option value="인천광역시">인천광역시</option>
-            <option value="광주광역시">광주광역시</option>
-            <option value="대전광역시">대전광역시</option>
-            <option value="울산광역시">울산광역시</option>
-            <option value="세종특별자치시">세종특별자치시</option>
-            <option value="경기도">경기도</option>
-            <option value="강원도">강원도</option>
-            <option value="충청북도">충청북도</option>
-            <option value="충청남도">충청남도</option>
-            <option value="전라북도">전라북도</option>
-            <option value="전라남도">전라남도</option>
-            <option value="경상북도">경상북도</option>
-            <option value="경상남도">경상남도</option>
-            <option value="제주특별자치도">제주특별자치도</option>
+          <select name="" id="" onchange="loadData(this.value)">
+            <option value="">전체</option>
+            <option value="서울">서울특별시</option>
+            <option value="인천">인천광역시</option>
+            <option value="대전">대전광역시</option>
+            <option value="광주">광주광역시</option>
+            <option value="울산">울산광역시</option>
+            <option value="대구">대구광역시</option>
+            <option value="부산">부산광역시</option>
           </select>
           <select disabled="disabled">
             <option value="">동네를 선택하세요</option>
@@ -62,201 +54,64 @@
           </select>
         </nav>
       </section>
-      <section class="list-wrap">
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/1.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>급판</h4>
-              <h5>170만원</h5>
-              <p>강원도 평창군 대화면</p>
-              <div class="list-counts">
-                <span>관심 21</span>
-                <span>채팅 68</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/2.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>(판매완료) 조립식 철제선반 판매합니다</h4>
-              <h5>10,000원</h5>
-              <p>충북 청주시 상당구 용암2동</p>
-              <div class="list-counts">
-                <span>관심 13</span>
-                <span>채팅 49</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/3.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>다혼 미니벨로 접이식 자전거</h4>
-              <h5>100,000원</h5>
-              <p>서울 강동구 암사제3동</p>
-              <div class="list-counts">
-                <span>관심 19</span>
-                <span>채팅 23</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/4.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>스팸 200g</h4>
-              <h5>100,000원</h5>
-              <p>경남 창원시 의창구 팔용동</p>
-              <div class="list-counts">
-                <span>관심 3</span>
-                <span>채팅 27</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/5.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>혼다 미니벨로 자전거 판매합니다</h4>
-              <h5>80,000원</h5>
-              <p>서울 양천구 목4동</p>
-              <div class="list-counts">
-                <span>관심 15</span>
-                <span>채팅 27</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/6.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>전기자전거. 모토벤리</h4>
-              <h5>45,000원</h5>
-              <p>대구 달서구 성당동</p>
-              <div class="list-counts">
-                <span>관심 6</span>
-                <span>채팅 25</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/7.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>갤럭시 워치4</h4>
-              <h5>20,000원</h5>
-              <p>서울 도봉구 도봉제1동</p>
-              <div class="list-counts">
-                <span>관심 13</span>
-                <span>채팅 24</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/8.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>말본,지포어,PXG,골프의류 명품의류 정로스 제품판매합니다</h4>
-              <h5>123,456원</h5>
-              <p>서울 송파구 잠실6동</p>
-              <div class="list-counts">
-                <span>관심 10</span>
-                <span>채팅 40</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/9.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>lgv50</h4>
-              <h5>60,000원</h5>
-              <p>서울 도봉구 도봉제1동</p>
-              <div class="list-counts">
-                <span>관심 9</span>
-                <span>채팅 22</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/10.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>스트라이다 자전거 삼각형 미니벨로</h4>
-              <h5>80,000원</h5>
-              <p>경기도 고양시 덕양구 향동동</p>
-              <div class="list-counts">
-                <span>관심 7</span>
-                <span>채팅 23</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/11.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>파세코 캠핑난로 팝니다</h4>
-              <h5>30,000원</h5>
-              <p>인천 계양구 효성2동</p>
-              <div class="list-counts">
-                <span>관심 8</span>
-                <span>채팅 21</span>
-              </div>
-            </div>
-          </a>
-        </article>
-        <article class="list-item">
-          <a href="">
-            <div class="list-img">
-              <img src="./image/12.jpeg" alt="" />
-            </div>
-            <div class="list-info">
-              <h4>왜관 꿈애오토캠핑장 양도합니다.(10월1~3일, 2박3일)</h4>
-              <h5>90,000원</h5>
-              <p>대구 동구 신천동</p>
-              <div class="list-counts">
-                <span>관심 2</span>
-                <span>채팅 22</span>
-              </div>
-            </div>
-          </a>
-        </article>
+      <section id="item-list" class="list-wrap">
       </section>
-      <button>더보기</button>
     </section>
+    <script>
+      const list = document.getElementById("item-list"); 
+
+      function loadData(area){
+         fetch("item-list.json")
+              .then((res) => res.json())
+              .then((items) => {
+                list.innerHTML = ""; 
+                if(area != null){
+                  for(let i in items){
+                    if( items[i].addr.includes(area)){
+                      list.innerHTML += 
+                      `<article class="list-item">
+                          <a href="">
+                            <div class="list-img">
+                              <img src="${items[i].imgUrl}" alt="" />
+                            </div>
+                            <div class="list-info">
+                              <h4>${items[i].title}</h4>
+                              <h5>${items[i].price}</h5>
+                              <p>${items[i].addr}</p>
+                              <div class="list-counts">
+                                <span>관심 ${items[i].atantion}</span>
+                                <span>채팅 ${items[i].chat}</span>
+                              </div>
+                            </div>
+                          </a>
+                        </article>`
+                      }
+                    }
+                 } else{
+                  for(let i in items){
+                    list.innerHTML += 
+                  `<article class="list-item">
+                      <a href="">
+                        <div class="list-img">
+                          <img src="${items[i].imgUrl}" alt="" />
+                        </div>
+                        <div class="list-info">
+                          <h4>${items[i].title}</h4>
+                          <h5>${items[i].price}</h5>
+                          <p>${items[i].addr}</p>
+                          <div class="list-counts">
+                            <span>관심 ${items[i].atantion}</span>
+                            <span>채팅 ${items[i].chat}</span>
+                          </div>
+                        </div>
+                      </a>
+                    </article>`
+                  }
+                }
+            })
+      }
+
+      loadData("");
+    </script>
   </body>
 </html>

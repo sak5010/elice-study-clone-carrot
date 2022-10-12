@@ -1,0 +1,98 @@
+[
+  {   
+      "title": "다이슨 V10 청소기 필요하신분 ☺️",
+      "price": "50,000원",
+      "addr": "서울 관악구 난곡동",
+      "atantion": "26",
+      "chat": "22",
+      "imgUrl": "./image/item_1.jpeg"
+  },
+  {
+      "title": "콩 식물성 기름",
+      "price": "10,000",
+      "addr": "인천 연수구 청학동",
+      "atantion": "10",
+      "chat": "23",
+      "imgUrl": "./image/item_2.jpeg"
+  },
+  {
+      "title": "삼성 냉동고",
+      "price": "20,000",
+      "addr": "대전 유성구 송강동",
+      "atantion": "7",
+      "chat": "13",
+      "imgUrl": "./image/item_3.jpeg"
+  },
+  {
+      "title": "아이폰 12프로 12pro 512GB 중고 판매합니다",
+      "price": "500,000원",
+      "addr": "인천 동구 신천동4",
+      "atantion": "6",
+      "chat": "12",
+      "imgUrl": "./image/item_4.jpeg"
+  },
+  {
+      "title": "왜관 꿈애오토캠핑장 양도합니다.(10월1~3일, 2박3일)",
+      "price": "90,000원",
+      "addr": "대전 동구 신천동5",
+      "atantion": "2",
+      "chat": "22",
+      "imgUrl": "./image/12.jpeg"
+  },
+  {
+      "title": "lgv50",
+      "price": "60,000원",
+      "addr": "서울 도봉구 도봉제1동",
+      "atantion": "9",
+      "chat": "22",
+      "imgUrl": "./image/9.jpeg"
+  },
+  {
+      "title": "말본,지포어,PXG,골프의류 명품의류 정로스 제품판매합니다",
+      "price": "123,456원",
+      "addr": "서울 송파구 잠실6동",
+      "atantion": "10",
+      "chat": "40",
+      "imgUrl": "./image/8.jpeg"
+  },
+  {
+      "title": "베이킹도구 팔아요(휘낭시에틀, 머핀틀, 구겔호프틀, 실리콘매트, 스크래퍼 등)",
+      "price": "2,000",
+      "addr": "울산 남구 신정동",
+      "atantion": "5",
+      "chat": "17",
+      "imgUrl": "./image/item_5.jpeg"
+  },
+  {
+      "title": "애어팟 프로 세것",
+      "price": "80,000원",
+      "addr": "대구 중구 수창동",
+      "atantion": "4",
+      "chat": "22",
+      "imgUrl": "./image/item_6.jpeg"
+  },
+  {
+      "title": "스팸",
+      "price": "10,000",
+      "addr": "부산 연제구 거제제4동",
+      "atantion": "3",
+      "chat": "24",
+      "imgUrl": "./image/item_7.jpeg"
+  },
+  {
+      "title": "4단 선반",
+      "price": "10,000",
+      "addr": "광주 동구 신천동5",
+      "atantion": "11",
+      "chat": "11",
+      "imgUrl": "./image/item_8.jpeg"
+  },
+  {
+      "title": "다혼 미니벨로 접이식 자전거",
+      "price": "100,000원",
+      "addr": "서울 강동구 암사제3동",
+      "atantion": "19",
+      "chat": "23",
+      "imgUrl": "./image/3.jpeg"
+  } 
+]
