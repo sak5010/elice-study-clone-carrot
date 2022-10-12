@@ -116,3 +116,38 @@ section.product-info > .img-container > img {
   font-size: var(--font-size-12);
   color: var(--gray-color-10);
 }
+
+section.product-info-writing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0;
+  border-bottom: 1px solid var(--footer-line-color);
+}
+
+section.product-info-writing > h6 {
+  font-weight: bold;
+}
+
+.product-info-writing__category {
+  font-size: var(--font-size-13);
+  color: var(--gray-color-10);
+  margin: 10px 0;
+}
+
+.product-info-writing__price {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-info-writing__contents {
+  font-size: var(--font-size-17);
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+
+.product-info-writing__sub-info {
+  font-size: var(--font-size-13);
+  color: var(--gray-color-10);
+  margin-bottom: 20px;
+}
