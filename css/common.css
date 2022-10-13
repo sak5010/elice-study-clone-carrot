@@ -12,6 +12,7 @@
   --footer-nav-color: #212124;
   --footer-info-color: #868b94;
   --gray-color-10: #868e96;
+  --blue-color: #1461a9;
 
   /* line-color */
   --line-color: #e9ecef;
@@ -30,6 +31,7 @@
   --font-size-15: 15px;
   --font-size-14: 14px;
   --font-size-13: 13px;
+  --font-size-12: 12px;
 }
 
 html,
