@@ -37,7 +37,7 @@ section.sub-content {
 }
 .head-wrap select:disabled {
   color: #adb5bd;
-  background: #f8f9fa  url(/image/icon-arrow-down-off.svg) no-repeat 89% 50%;
+  background: #f8f9fa url(/image/icon-arrow-down-off.svg) no-repeat 89% 50%;
 }
 
 .list-wrap {
@@ -88,12 +88,11 @@ section.sub-content {
 }
 
 .list-wrap .list-item .list-info span:last-child::before {
-  content: '∙';
+  content: "∙";
   display: inline-block;
-  color:var(--gray-color-10);
+  color: var(--gray-color-10);
   margin-right: 5px;
 }
-
 
 .list-wrap .list-item .list-img {
   width: 100%;
