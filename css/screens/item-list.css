@@ -115,6 +115,10 @@ section.sub-content {
   border: 1px solid transparent;
 }
 
+.list-wrap .list-item a {
+  pointer-events: none;
+}
+
 button {
   width: 180px;
   display: block;
