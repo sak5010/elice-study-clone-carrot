@@ -14,7 +14,7 @@
     <header>
       <div class="nav-bar">
         <div class="nav-bar__left">
-          <div class="nav-bar__logo">
+          <div class="nav-bar__logo" onclick="location.href='/index.html'">
             <img src="image/carrot-logo.png" alt="당근마켓 로고" />
           </div>
           <ul class="nav-bar__category">
@@ -27,8 +27,15 @@
           <input
             type="text"
             class="nav-bar__search"
-            placeholder="물품이나 동네를 검색해보세요"/>
+            placeholder="물품이나 동네를 검색해보세요"
+          />
           <button class="nav-bar__chatBtn">채팅하기</button>
+          <button
+            class="nav-bar__loginBtn"
+            onclick="location.href='/login.html'"
+          >
+            로그인
+          </button>
         </div>
       </div>
     </header>
@@ -37,27 +44,29 @@
         <form class="login-form" action="">
           <div class="container">
             <label for="email"><b>Email</b></label>
-            <input type="email" placeholder="User Email" name="email" required>
-      
+            <input
+              type="email"
+              placeholder="User Email"
+              name="email"
+              required
+            />
+
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Password" name="psw" required>
-            
-            <input type="checkbox" checked="checked" name="remember"> 
+            <input type="password" placeholder="Password" name="psw" required />
+
+            <input type="checkbox" checked="checked" name="remember" />
             <label class="remember">Remember me</label>
-            
+
             <button type="submit">Sign In</button>
-            <div class="sns">
-            
-            </div>
+            <div class="sns"></div>
           </div>
-      
-          <div class="container" style="background-color:#f1f1f1">
+
+          <div class="container" style="background-color: #f1f1f1">
             <button type="button">Cancel</button>
             <span class="psw">Forgot <a href="#">password?</a></span>
           </div>
         </form>
       </div>
     </main>
-
   </body>
 </html>

@@ -23,6 +23,10 @@ header {
   box-sizing: border-box;
 }
 
+.nav-bar__logo {
+  cursor: pointer;
+}
+
 .nav-bar__logo > img {
   width: 100px;
   height: 28px;
@@ -82,6 +86,22 @@ header {
 }
 
 .nav-bar__chatBtn:hover {
+  background-color: var(--footer-line-color);
+  color: var(--gray-color-10);
+  cursor: pointer;
+}
+
+.nav-bar__loginBtn {
+  background-color: var(--back-color);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 0 10px;
+  font-size: var(--font-size-16);
+  font-weight: bold;
+}
+
+.nav-bar__loginBtn:hover {
   background-color: var(--footer-line-color);
   color: var(--gray-color-10);
   cursor: pointer;
