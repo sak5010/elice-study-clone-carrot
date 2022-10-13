@@ -165,6 +165,7 @@ main > section.hot-items .item-container {
 .item {
   margin-right: 44px;
   margin-bottom: 56px;
+  cursor: pointer;
 }
 
 .item > img {

@@ -54,22 +54,20 @@
           </select>
         </nav>
       </section>
-      <section id="item-list" class="list-wrap">
-      </section>
+      <section id="item-list" class="list-wrap"></section>
     </section>
     <script>
-      const list = document.getElementById("item-list"); 
+      const list = document.getElementById("item-list");
 
-      function loadData(area){
-         fetch("item-list.json")
-              .then((res) => res.json())
-              .then((items) => {
-                list.innerHTML = ""; 
-                if(area != null){
-                  for(let i in items){
-                    if( items[i].addr.includes(area)){
-                      list.innerHTML += 
-                      `<article class="list-item">
+      function loadData(area) {
+        fetch("item-list.json")
+          .then((res) => res.json())
+          .then((items) => {
+            list.innerHTML = "";
+            if (area != null) {
+              for (let i in items) {
+                if (items[i].addr.includes(area)) {
+                  list.innerHTML += `<article class="list-item">
                           <a href="">
                             <div class="list-img">
                               <img src="${items[i].imgUrl}" alt="" />
@@ -84,13 +82,12 @@
                               </div>
                             </div>
                           </a>
-                        </article>`
-                      }
-                    }
-                 } else{
-                  for(let i in items){
-                    list.innerHTML += 
-                  `<article class="list-item">
+                        </article>`;
+                }
+              }
+            } else {
+              for (let i in items) {
+                list.innerHTML += `<article class="list-item">
                       <a href="">
                         <div class="list-img">
                           <img src="${items[i].imgUrl}" alt="" />
@@ -105,10 +102,10 @@
                           </div>
                         </div>
                       </a>
-                    </article>`
-                  }
-                }
-            })
+                    </article>`;
+              }
+            }
+          });
       }
 
       loadData("");
